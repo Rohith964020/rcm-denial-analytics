@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "total_claims": 8000,
+    "period": "Jun 2025 \u2013 May 2026",
+    "note": "Fully synthetic data \u2014 no PHI. Distributions modeled on industry benchmarks."
+  },
+  "kpis": {
+    "denial_rate": 14.4,
+    "days_in_ar": 41.0,
+    "open_ar": 615932.0,
+    "ar_90_dollars": 504244.0,
+    "ar_90_share": 82.0,
+    "recovery_rate": 32.0,
+    "clean_claim_rate": 79.7
+  },
+  "by_payer": {
+    "labels": [
+      "BlueShield Co",
+      "StateMedicaid",
+      "AetnaCare",
+      "Cigma Health",
+      "UniHealth",
+      "MediCare Plus"
+    ],
+    "denial_rate": [
+      20.7,
+      15.5,
+      14.4,
+      13.5,
+      11.8,
+      11.0
+    ],
+    "avg_days": [
+      58.0,
+      49.0,
+      38.0,
+      42.0,
+      34.0,
+      29.0
+    ]
+  },
+  "by_category": {
+    "labels": [
+      "No prior authorization",
+      "Eligibility - inactive/incorrect coverage",
+      "Coding - medical necessity mismatch",
+      "Missing/invalid information",
+      "Duplicate claim",
+      "Timely filing exceeded",
+      "Coordination of benefits"
+    ],
+    "counts": [
+      429,
+      244,
+      170,
+      132,
+      65,
+      58,
+      56
+    ],
+    "recovery": [
+      17.0,
+      51.0,
+      54.0,
+      80.0,
+      40.0,
+      5.0,
+      46.0
+    ]
+  },
+  "pa_trend": {
+    "labels": [
+      "2025-06",
+      "2025-07",
+      "2025-08",
+      "2025-09",
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03",
+      "2026-04",
+      "2026-05"
+    ],
+    "counts": [
+      26,
+      39,
+      41,
+      28,
+      47,
+      50,
+      56,
+      22,
+      32,
+      28,
+      32,
+      28
+    ]
+  },
+  "ar_buckets": {
+    "labels": [
+      "0-30",
+      "31-60",
+      "61-90",
+      "90+"
+    ],
+    "dollars": [
+      30157.0,
+      31341.0,
+      46244.0,
+      504244.0
+    ]
+  }
+}
