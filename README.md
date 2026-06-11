@@ -2,7 +2,7 @@
 
 An end-to-end revenue cycle analytics project: synthetic US healthcare claims data generated in Python, metrics computed with pandas, rendered as a live interactive dashboard — built around the questions an RCM team actually asks: where are we losing money, why, and what should we fix first?
 
-**Live dashboard:** https://Rohith964020.github.io/rcm-denial-analytics/
+**Live dashboard:** https://rohith964020.github.io/rcm-denial-analytics/
 
 > All data is fully synthetic. Real claims data is protected health information (PHI) under HIPAA, so the project generates 8,000 claims with payer behavior, denial-category frequencies, and recovery probabilities modeled on industry benchmarks.
 
